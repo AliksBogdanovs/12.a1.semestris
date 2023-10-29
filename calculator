@@ -1,0 +1,9 @@
+import datetime
+import json
+
+def konts_add():
+
+    while True:
+        vardss = input('ievadiet vardu un uzvardu: ')
+        if vardss.isdigit() == False:
+            if vardss.strip() == '':
